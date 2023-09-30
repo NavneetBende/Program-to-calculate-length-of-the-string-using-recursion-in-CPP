@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//Function to calculate the length of the string
+int Len(char* str) 
+{  
+   int count = 0;
+   while (*str != '\0'){
+      count++;
+      str++;
+   }
+   return count;
+}
+
+/* Driver code */
+int main()
+{
+   char str[] = "PrepInsta";
+   cout << Len(str);
+   return 0;
+}
