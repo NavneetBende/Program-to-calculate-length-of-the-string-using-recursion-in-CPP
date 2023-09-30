@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//Function to calculate the length of the string
+int Len(string str) 
+{  
+   return str.length();
+}
+
+/* Driver code */
+int main()
+{
+   string str = "PrepInsta";
+   cout << Len(str);
+   return 0;
+}
